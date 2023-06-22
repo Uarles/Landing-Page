@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+:root{
+    --cor-1: #FF6C1A;
+    --cor-2: #A413FF;
+    --cor-3: #111111;
+    --cor-4: #f2f2f2;
+}
+
+html{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    font-family: 'Inter', sans-serif;
+    color: var(--cor-4);
+}
+
+#capa{
+   background-image: url("/img/patinhas-felizes_01.png");
+   background-repeat: no-repeat;
+   background-size: auto;
+   height: 900px;
+}
+
+#conteudoCapa{
+    width: min(40%, 550px);
+    padding: 0em 4em ;
+}
+#title{
+    font-size: max(3.5em, 1em);
+    font-weight: 400;
+    margin-bottom: .7em;
+}
+
+#sobre{
+    font-size: 1.5em;
+    font-weight: 300;
+}
+
+#downloadButton{
+    background-color: var(--cor-1);
+    color: var(--cor-4);
+    padding: 1em 7em;
+    border: none;
+    border-radius: 5px;
+    margin-top: 1em;
+}
